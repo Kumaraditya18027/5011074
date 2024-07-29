@@ -1,0 +1,17 @@
+ime Complexity Comparison:
+
+Bubble Sort:
+
+Best Case: O(n) – when the array is already sorted.
+Average Case: O(n^2) – due to nested loops.
+Worst Case: O(n^2) – when the array is sorted in reverse order.
+Quick Sort:
+
+Best Case: O(n log n) – when the pivot divides the array into two equal halves.
+Average Case: O(n log n) – usually achieved by random pivot selection.
+Worst Case: O(n^2) – when the smallest or largest element is always chosen as the pivot.
+Why Quick Sort is Preferred Over Bubble Sort:
+
+Efficiency: Quick Sort generally performs better than Bubble Sort due to its lower average time complexity of O(n log n), compared to Bubble Sort's O(n^2).
+Scalability: Quick Sort scales better for larger datasets, making it more suitable for applications like sorting customer orders on an e-commerce platform.
+Optimization: Despite its worst-case scenario being O(n^2), Quick Sort can be optimized using techniques like randomized pivot selection or the "median-of-three" rule to avoid poor performance on already sorted or reverse-sorted data.
