@@ -1,0 +1,17 @@
+Linear Search:
+
+Best Case: O(1) – when the target element is the first element in the list.
+Average Case: O(n) – on average, you have to check half the elements.
+Worst Case: O(n) – when the target element is the last element or not present.
+
+Binary Search:
+
+Best Case: O(1) – when the target element is the middle element.
+Average Case: O(log n) – the search space is halved in each step.
+Worst Case: O(log n) – when the target element is at the end of the list or not present.
+Choosing the Suitable Algorithm:
+
+Linear Search is straightforward and works on unsorted arrays. It is suitable for small datasets or when the data isn't sorted.
+
+Binary Search is more efficient for large datasets but requires the array to be sorted. 
+It significantly reduces the search time with its logarithmic time complexity.

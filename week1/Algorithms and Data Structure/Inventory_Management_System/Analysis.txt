@@ -1,0 +1,14 @@
+Time Complexity Analysis:
+Add Product:
+Time Complexity: O(1) (average case) - Inserting an element into a HashMap.
+Update Product:
+Time Complexity: O(1) (average case) - Updating an element in a HashMap.
+Delete Product:
+Time Complexity: O(1) (average case) - Deleting an element from a HashMap.
+Get Product:
+Time Complexity: O(1) (average case) - Retrieving an element from a HashMap.
+
+
+Optimizing Operations:
+Ensure that the hashCode and equals methods are correctly implemented for the keys used in the HashMap to maintain efficiency.
+If concurrency is a concern, consider using ConcurrentHashMap for thread-safe operations.
