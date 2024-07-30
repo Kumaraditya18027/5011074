@@ -1,0 +1,18 @@
+Time Complexity Analysis:
+
+Linear Search:
+Time Complexity: O(n), where n is the number of books in the library.
+Use Case: Suitable for small or unsorted data sets.
+Binary Search:
+Time Complexity: O(log n), where n is the number of books in the library.
+Use Case: Suitable for large, sorted data sets.
+
+
+When to Use Each Algorithm:
+
+Linear Search:
+When the data set is small or unsorted.
+When the cost of sorting the data set outweighs the benefits of faster search times.
+Binary Search:
+When the data set is large and sorted.
+When frequent searches are performed, making the initial sorting cost worthwhile.

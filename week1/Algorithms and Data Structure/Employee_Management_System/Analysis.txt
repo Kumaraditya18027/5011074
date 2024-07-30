@@ -1,0 +1,24 @@
+Time Complexity Analysis:
+
+Add Employee:
+Time Complexity: O(1) – Adding an element to the end of the array.
+Search Employee:
+Time Complexity: O(n) – Linear search through the array.
+Traverse Employees:
+Time Complexity: O(n) – Iterating through the array.
+Delete Employee:
+Time Complexity: O(n) – Finding the element and shifting the remaining elements.
+
+
+Limitations of Arrays:
+
+Fixed Size: Arrays have a fixed size, making them less flexible if the number of elements exceeds the initial capacity.
+Inefficient Deletions: Deletion operations require shifting elements, leading to O(n) time complexity.
+Static Data Type: All elements must be of the same type.
+
+
+When to Use Arrays:
+
+When the number of elements is known in advance.
+When quick, direct access to elements is required.
+When memory usage needs to be minimized and operations are relatively simple (e.g., read and write).

@@ -1,0 +1,18 @@
+Time Complexity Analysis:
+
+Recursive Algorithm Time Complexity:
+Time Complexity: O(n), where n is the number of periods. Each recursive call reduces the number of periods by 1, leading to a linear number of calls.
+Optimization to Avoid Excessive Computation:
+
+Memoization:
+
+Memoization involves storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+In this scenario, memoization is not required as the recursive approach with a linear number of calls is efficient enough for this use case. However, if the algorithm were more complex, memoization could significantly improve performance.
+
+Iterative Approach:
+
+Convert the recursive solution to an iterative one to avoid potential stack overflow issues and reduce function call overhead.
+
+Explanation of Optimization:
+
+Iterative Approach: The iterative approach uses a simple loop to calculate the future value, avoiding the overhead of multiple recursive calls and the risk of stack overflow.
